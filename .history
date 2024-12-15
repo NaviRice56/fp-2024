@@ -1,0 +1,25 @@
+print_info()
+load
+print_info()
+print_info(0
+add_artwork(789 "sigmaa" Painting 5000.00 "A portrait by Leonardsaddo da Vinci")
+save
+print_info()
+add_artwork(9 "Monsssdsadsasadsdsaa Lisa" Painting 5000.00 "A portrait by Leonardsaddo da Vinci")
+print_info()
+load
+print_info()
+sell_artwork(3 "Mona Lisa" Painting 5000.00 "A portrait by Leonardo da Vinci")
+save
+print_info()
+add_artwork(6 "Monsssa Lisa" Painting 5000.00 "A portrait by Leonardsaddo da Vinci")
+add_artwork(3 "Mona Lisa" Painting 5000.00 "A portrait by Leonardo da Vinci")
+:paste
+print_info()
+add_artwork(3 "Mona Lisa" Painting 5000.00 "A portrait by Leonardo da Vinci")
+>>> add_artwork(4 "The Scream" Painting 4000.00 "An expressionist painting by Edvard Munch");
+>>> add_artwork(3 "Mona Lisa" Painting 5000.00 "A portrait by Leonardo da Vinci");
+add_artwork(3 "Mona Lisa" Painting 5000.00 "A portrait by Leonardo da Vinci");
+print_info()
+:paste add_artwork(3 "Mona Lisa" Painting 5000.00 "A portrait by Leonardo da Vinci") add_artwork(4 "The Scream" Painting 4000.00 "An expressionist painting by Edvard Munch") print_info()
+:quit

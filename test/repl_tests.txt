@@ -1,0 +1,38 @@
+>>> :paste
+-- Entering multi-line mode. Press <Ctrl-D> to finish.
+| add_artwork(3 "Mona Lisa" Painting 5000.00 "A portrait by Leonardo da Vinci")
+| add_artwork(6 "Monsssa Lisa" Painting 5000.00 "A portrait by Leonardsaddo da Vinci")
+| print_info()
+| 
+Commands parsed
+Log:
+Artwork added.
+Artwork added.
+ArtPiece {artId = 6, title = "Monsssa Lisa", artType = Painting, price = 5000.0, description = "A portrait by Leonardsaddo da Vinci"}
+ArtPiece {artId = 3, title = "Mona Lisa", artType = Painting, price = 5000.0, description = "A portrait by Leonardo da Vinci"}\
+
+>>> add_artwork(789 "sigmaa" Painting 5000.00 "A portrait by Leonardsaddo da Vinci")
+Commands parsed
+Log:
+Artwork added.
+
+>>> print_info(0
+PARSE ERROR:Failed to parse 'load' command.; Failed to parse 'save' command.; Failed to parse command
+Unrecognized command
+>>> print_info()
+Commands parsed
+Log:
+ArtPiece {artId = 789, title = "sigmaa", artType = Painting, price = 5000.0, description = "A portrait by Leonardsaddo da Vinci"}
+ArtPiece {artId = 9, title = "Monsssdsadsasadsdsaa Lisa", artType = Painting, price = 5000.0, description = "A portrait by Leonardsaddo da Vinci"}
+ArtPiece {artId = 3, title = "Mona Lisa", artType = Painting, price = 5000.0, description = "A portrait by Leonardo da Vinci"}
+ArtPiece {artId = 6, title = "Monsssa Lisa", artType = Painting, price = 5000.0, description = "A portrait by Leonardsaddo da Vinci"}
+
+
+>>> load
+State loaded successfully.
+>>> print_info()
+Commands parsed
+Log:
+ArtPiece {artId = 6, title = "Monsssa Lisa", artType = Painting, price = 5000.0, description = "A portrait by Leonardsaddo da Vinci"}
+ArtPiece {artId = 3, title = "Mona Lisa", artType = Painting, price = 5000.0, description = "A portrait by Leonardo da Vinci"}
+ArtPiece {artId = 9, title = "Monsssdsadsasadsdsaa Lisa", artType = Painting, price = 5000.0, description = "A portrait by Leonardsaddo da Vinci"}
